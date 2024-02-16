@@ -10,14 +10,14 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\Time4digitalDylan\DependencyInjection;
+namespace Contao\Time4DigitalDylan\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class Time4digitalDylanExtension extends Extension
+class Time4DigitalDylanExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

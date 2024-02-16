@@ -14,7 +14,7 @@ namespace Contao\Time4digitalDylan;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class Time4digitalDylan extends Bundle
+class Time4digitalDylanBundle extends Bundle
 {
     
 }

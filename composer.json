@@ -3,10 +3,11 @@
   "description": "Dylan's Time4Digital Plugin",
   "license": "LGPL-3.0-or-later",
   "type": "contao-bundle",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Ribeiro de Serra Dylan",
-      "homepage": "https:/www.time4digital.lu"
+      "homepage": "https://www.time4digital.lu"
     }
   ],
   "homepage": "https://contao.org",
