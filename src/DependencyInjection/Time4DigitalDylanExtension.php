@@ -3,21 +3,21 @@
 declare(strict_types=1);
 
 /*
- * This file is part of [package name].
+ * This file is part of Time4digitalDylan.
  *
- * (c) John Doe
+ * (c) Ribeiro de Serra Dylan
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\DependencyInjection;
+namespace Contao\Time4digitalDylan\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoSkeletonExtension extends Extension
+class Time4digitalDylanExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

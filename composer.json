@@ -5,22 +5,18 @@
   "type": "contao-bundle",
   "authors": [
     {
-      "name": "Leo Feyer",
-      "homepage": "https://github.com/leofeyer"
-    },
-    {
-      "name": "Contao Community",
-      "homepage": "https://contao.org/contributors"
+      "name": "Ribeiro de Serra Dylan",
+      "homepage": "https:/www.time4digital.lu"
     }
   ],
   "homepage": "https://contao.org",
   "support": {
-    "issues": "https://github.com/contao/skeleton-bundle/issues",
-    "source": "https://github.com/contao/skeleton-bundle"
+    "issues": "https://github.com/ridy01-backup/contao-plugins/issues",
+    "source": "https://github.com/ridy01-backup/contao-plugins"
   },
   "require": {
-    "php": "^7.4 || ^8.0",
-    "contao/core-bundle": "^4.13",
+    "php": "^8.1",
+    "contao/core-bundle": "^4.13 || ^5.0",
     "symfony/config": "^5.4",
     "symfony/dependency-injection": "^5.4",
     "symfony/http-kernel": "^5.4"
@@ -36,12 +32,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Contao\\SkeletonBundle\\": "src/"
+      "Contao\\Time4digitalDylan\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Contao\\SkeletonBundle\\Tests\\": "tests/"
+      "Contao\\Time4digitalDylan\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -56,7 +52,7 @@
       "bin-links": false,
       "target-directory": "tools"
     },
-    "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Contao\\Time4digitalDylan\\ContaoManager\\Plugin"
   },
   "scripts": {
     "all": [
