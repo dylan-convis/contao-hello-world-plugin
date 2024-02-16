@@ -1,6 +1,6 @@
 {
-  "name": "contao/time4digital-dylan",
-  "description": "Dylan's Time4Digital Plugin",
+  "name": "time4digital/dylans-hello-world-bundle",
+  "description": "Dylan's Hello World Plugin",
   "license": "LGPL-3.0-or-later",
   "type": "contao-bundle",
   "version": "0.0.1",
@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Contao\\Time4digitalDylan\\": "src/"
+      "Time4digital\\DylansHelloWorldBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Contao\\Time4digitalDylan\\Tests\\": "tests/"
+      "Time4digital\\DylansHelloWorldBundle\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -50,7 +50,7 @@
       "bin-links": false,
       "target-directory": "tools"
     },
-    "contao-manager-plugin": "Contao\\Time4digitalDylan\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Time4digital\\DylansHelloWorldBundle\\ContaoManager\\Plugin"
   },
   "scripts": {
     "all": [
