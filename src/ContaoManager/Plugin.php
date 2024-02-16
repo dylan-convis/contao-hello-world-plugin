@@ -20,7 +20,10 @@ use Time4digital\DylansHelloWorldBundle\DylansHelloWorldBundle;
 
 class Plugin implements BundlePluginInterface
 {
-    public function getBundles(ParserInterface $parser): array
+    /**
+     * {@inheritdoc}
+     */
+    public function getBundles(ParserInterface $parser)
     {
         return [
             BundleConfig::create(DylansHelloWorldBundle::class)
