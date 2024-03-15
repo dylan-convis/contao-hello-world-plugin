@@ -1,3 +1,3 @@
 <?php
 // Frontend modules
-$GLOBALS['TL_LANG']['FMD']['helloWorld'] = ['Hello World', 'Gibt den Text "Hello World" aus'];
+$GLOBALS['TL_LANG']['FMD']['dylanhelloworld'] = ['Hello World', 'Description of the Hello World module.'];

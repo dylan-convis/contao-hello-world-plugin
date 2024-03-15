@@ -1,7 +1,7 @@
 <?php $this->extend('block_searchable'); ?>
 
 <?php $this->block('content'); ?>
-
-<?= $this->message; ?>
-
+<div class="dylan-hello-world-container">
+    <?= $this->message; ?>
+</div>
 <?php $this->endblock(); ?>
