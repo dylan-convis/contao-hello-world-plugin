@@ -4,4 +4,8 @@
 <div class="dylan-hello-world-container">
     <?= $this->message; ?>
 </div>
+
+<div class="dylans-hello-world-live-container">
+    <?= $this->liveMessage; ?>
+</div>
 <?php $this->endblock(); ?>
