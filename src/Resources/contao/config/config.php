@@ -6,7 +6,7 @@ $GLOBALS['FE_MOD']['miscellaneous']['Dylans Hello World FE'] = DylanHelloWorldMo
 // Backend modules
 $GLOBALS['BE_MOD']['content']['Dylans Hello World BE'] = [
     'tables' => ['tl_dylan'],
-    'callback'  => BackendModule::class,
+    //'callback'  => BackendModule::class,
     'javascript' => ['bundles/dylanhelloworldmodule/scripts.js'],
     'stylesheet' => ['bundles/dylanhelloworldmodule/styles.css'],
 ];

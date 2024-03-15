@@ -3,7 +3,7 @@
   "description": "Dylan's Hello World Plugin",
   "license": "LGPL-3.0-or-later",
   "type": "contao-bundle",
-  "version": "0.0.24",
+  "version": "0.0.26",
   "authors": [
     {
       "name": "Ribeiro de Serra Dylan",
