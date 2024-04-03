@@ -1,11 +1,19 @@
 <?php $this->extend('block_searchable'); ?>
 
 <?php $this->block('content'); ?>
-<div class="dylan-hello-world-container">
+<div class="hello-world-container">
     <?= $this->message; ?>
 </div>
 
-<div class="dylans-hello-world-live-container">
-    <?= $this->liveMessage; ?>
+<div class="hello-world-messages-container">
+    <?php if (!empty($this->entries)): ?>
+    <ul>
+        <?php foreach ($this->entries as $entry): ?>
+        <li><?= $entry['message']; ?></li>
+        <?php endforeach; ?>
+    </ul>
+    <?php else: ?>
+    <p>No Messages.</p>
+    <?php endif; ?>
 </div>
 <?php $this->endblock(); ?>

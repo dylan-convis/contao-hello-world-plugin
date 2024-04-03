@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_messages.php" source-language="en">
+    <body>
+        <trans-unit id="tl_messages.messages_legend">
+            <source>Messages</source>
+        </trans-unit>
+        <trans-unit id="tl_messages.message.0">
+            <source>Message</source>
+        </trans-unit>
+    </body>
+  </file>
+</xliff>

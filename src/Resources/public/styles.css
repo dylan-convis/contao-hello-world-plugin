@@ -1,0 +1,17 @@
+.hello-world-container {
+  background-color: lightblue;
+  padding: 10px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.hello-world-messages-container {
+  background-color: #90ee90;
+  padding: 3px;
+}
+
+.hello-world-messages-container ul,
+.hello-world-messages-container li {
+  margin: 0;
+}
