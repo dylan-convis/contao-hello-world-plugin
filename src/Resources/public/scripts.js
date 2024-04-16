@@ -1,7 +1,7 @@
 function displayMessages() {
   //get all list items from the hello world container
   var listItems = document.querySelectorAll(
-    ".hello-world-messages-container li"
+    ".dylans-hello-world-live-container li"
   );
   var index = 0; //start at the beginning
 
