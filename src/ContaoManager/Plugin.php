@@ -2,14 +2,6 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Time4digitalDylan.
- *
- * (c) Ribeiro de Serra Dylan
- *
- * @license LGPL-3.0-or-later
- */
-
 namespace Time4digital\DylansHelloWorldBundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -20,9 +12,7 @@ use Time4digital\DylansHelloWorldBundle\DylansHelloWorldBundle;
 
 class Plugin implements BundlePluginInterface
 {
-    /**
-     * {@inheritdoc}
-     */
+
     public function getBundles(ParserInterface $parser)
     {
         return [

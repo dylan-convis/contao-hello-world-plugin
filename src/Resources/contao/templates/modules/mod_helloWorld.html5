@@ -1,10 +1,13 @@
 <?php $this->extend('block_searchable'); ?>
 
 <?php $this->block('content'); ?>
+
+<!-- Hier verwenden wir den Wert der message-Variable -->
 <div class="dylan-hello-world-container">
     <?= $this->message; ?>
 </div>
 
+<!-- Hier durchlaufen wir das entries-Array und entnehmen für jedes Element den Wert der Nachricht -->
 <div class="dylans-hello-world-live-container">
     <ul>
         <?php foreach ($this->entries as $entry): ?>
