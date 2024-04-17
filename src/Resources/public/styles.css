@@ -1,4 +1,10 @@
-.hello-world-container {
+.mod_Hello {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.dylan-hello-world-container {
   background-color: lightblue;
   padding: 10px;
   color: black;
@@ -6,12 +12,12 @@
   font-weight: bold;
 }
 
-.hello-world-messages-container {
+.dylans-hello-world-live-container {
   background-color: #90ee90;
   padding: 3px;
 }
 
-.hello-world-messages-container ul,
-.hello-world-messages-container li {
+.dylans-hello-world-live-container ul,
+.dylans-hello-world-live-container li {
   margin: 0;
 }
