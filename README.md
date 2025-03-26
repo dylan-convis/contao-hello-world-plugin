@@ -1,4 +1,4 @@
-# Time4Digital Dylan's Plugin
+# Dylan's Plugin
 
 ## Tutorial 
 [Read the article here](https://www.time4digital.lu/article/hello-world-contao-plugin)
